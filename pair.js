@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function FREDI_TECH_PAIR_CODE() {
+        async function NJABULO_JB_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -57,16 +57,15 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id, { text: '' + b64data });
 
                let FREDI_TECH_TEXT = `
-✧LUCKY MD DEVICE SUCCESSFUL CONNECTED✧
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🤦  Creator ☞ ✧FREDI EZRA✧
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🫂  WhattsApp Channel ☞ https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🥂 Contact Owne ☞ https://wa.me/255752593977
-FREDIETECH
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-> ©*FREDIE TECH 2025 SCRIPT*
+✧ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴅᴇᴠɪᴄᴇ sᴜᴄᴄᴇssғᴜʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ✧
+================================
+𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕
+================================
+𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗟𝗜𝗡𝗞𝗦 : https://shorturl.at/q8ZuS
+================================
+𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗢𝗪𝗡𝗘𝗥 : https://wa.me/message/5YM57LOXVA4BC1
+================================
+> sir Njabulo JB Office 
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Fredie_Tech.sendMessage(Pair_Code_By_Fredie_Tech.user.id,{text:FREDI_TECH_TEXT},{quoted:session})
